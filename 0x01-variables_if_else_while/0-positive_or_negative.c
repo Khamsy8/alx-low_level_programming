@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more header goes here */
-
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description: "Program notice of the code"
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
