@@ -12,14 +12,14 @@
 int main(void)
 {
 
-char ch = 'a';
+char n = 'a';
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-for (ch = 'a'; ch = 'z'; ch++)
+for (n = 'a'; n = 'z'; n++)
 {
-putchar(ch);
+putchar(n);
 }
 return (0);
 }
