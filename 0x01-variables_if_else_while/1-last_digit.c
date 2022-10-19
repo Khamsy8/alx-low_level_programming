@@ -33,4 +33,5 @@ if (n == 0)
 printf("Last digit of 980 is 0 and is 0");
 return (0);
 }
+
 }
