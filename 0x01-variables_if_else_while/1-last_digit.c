@@ -23,7 +23,7 @@ if (n > 5)
 printf("Last digit of 98 is 8 and is greater than 5");
 }
 
- if (n < 6)
+if (n < 6)
 {
 printf("Last digit of -98 is -8 and is less than 6 and not 0");
 }
