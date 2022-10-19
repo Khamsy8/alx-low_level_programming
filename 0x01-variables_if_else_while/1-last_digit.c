@@ -1,14 +1,13 @@
+
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
- * Return" Always 0 (Success)
+ * Description: "Program notice of the code"
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -18,20 +17,18 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if (n > 5)
+if (n > 0)
 {
-printf("Last digit of 98 is 8 and is greater than 5");
+printf("98 is positive\n");
 }
-
-if (n < 6)
-{
-printf("Last digit of -98 is -8 and is less than 6 and not 0");
-}
-
 if (n == 0)
 {
-printf("Last digit of 980 is 0 and is 0");
-return (0);
+printf("0 is zero\n");
 }
 
+if (n < 0)
+{
+printf("-98 is negative\n");
+}
+return (0);
 }
