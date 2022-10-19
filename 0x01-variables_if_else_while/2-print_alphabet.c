@@ -17,7 +17,7 @@ char ch = 'a';
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
- for (ch = 'a'; ch = 'z'; ch++)
+for (ch = 'a'; ch = 'z'; ch++)
 {
 putchar(ch);
 }
