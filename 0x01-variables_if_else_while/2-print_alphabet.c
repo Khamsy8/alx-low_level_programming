@@ -12,14 +12,14 @@
 int main(void)
 {
 
-char n;
+char ch = 'a';
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if (n < 6 && n != 0)
+ for (ch = 'a'; ch = 'z'; ch++)
 {
-putchar("abcdefghijklmnopqrstuvwxyz\n");
+putchar(ch);
 }
 return (0);
 }
